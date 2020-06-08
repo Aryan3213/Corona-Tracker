@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corona Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/cebedaac72.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="heading"><span class="first">Corona</span> Tracker</h1>
+  <div class="container">
+    <form id="form">
+      <input type="text" id="country-input" placeholder="Enter the country" class="country-input">
+      <button class="btn" id="btn">Get Data</button>
+    </form>
+    <table id="table" class="table">
+      <tr>
+        <th>Country</th>
+        <th><span class="first">New</span> Confirmed</th>
+        <th>Total <span class="first">Confirmed</span> </th></th>
+        <th><span class="first">New</span> Deaths</th></th>
+        <th>Total <span class="first">Deaths</span> </th></th>
+        <th><span class="first">New</span> Recovered</th></th>
+        <th>Total <span class="first">Recovered</span> </th></th>
+      </tr>
+      <tr id="first-row">
+        <td>World-Wide</td>
+      </tr>
+    </table>
+
+    <canvas id="chart"></canvas>
+  </div>
+
+
+  <!-- <footer id="footer">
+    <div class="socialmedia">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+
+      <a href="#"><i class="fab fa-twitter"></i></a>
+
+      <a href="#"><i class="fab fa-instagram"></i></a>
+
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
